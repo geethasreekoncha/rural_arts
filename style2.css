@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.col-md-9 {
+    padding: 100px;
+}
+
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 18px;
+}
+
+.dropdown-item:hover {
+    background-color: black;
+    color: white !important;
+}
+
+.bg-teal {
+    background-color: #105a5a;
+    margin: 10;
+    justify-content: center;
+}
+
+.col h1 {
+    padding-left: 50;
+    justify-content: center;
+    text-align: center;
+}
+
+.text-teal {
+    color: #105a5a;
+}
+
+.myImage {
+    border-radius: 10px !important;
+    box-shadow: 0 0 10px black;
+}
+
+.btn-teal {
+    background-color: #105a5a !important;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav-item {
+    float: left;
+}
+
+.nav-item .nav-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-item .nav-link:hover {
+    background-color: #111;
+}
+
+.container .row.animated.slideInRight {
+    background: rgb(214, 209, 209);
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.container .row.animated.slideInRight .col-md-4 a:link,
+a:visited {
+    background-color: #865858;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    height: 42px;
+    margin-top: 10px;
+    margin-left: 180px;
+    margin-bottom: 10px;
+}
+
+.container .row.animated.slideInRight .col-md-4 a:hover,
+a:active {
+    background-color: #8c0000;
+}
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+
+.modal-dialog {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+
+/* The Close Button */
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close1 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close2 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-body input[type=text],
+input[type=number],
+input[type=file],
+input[type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+.form-group select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+.form-group input[type=button],
+input[type=submit],
+input[type=reset],
+input[type=file] {
+    background-color: #8e7f7f;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #8e7f7f;
+    color: white;
+}
+
+.card-header .bg-secondary .text-white {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/* Darker background on mouse-over */
+
+.btn:hover {
+    background-color: RoyalBlue;
+}
+
+@media only screen and (max-width:620px) {
+    .container,
+    .col-md-4,
+    .btn .btn-primary .btn-block {
+        width: 100%;
+        padding: 100px 20px;
+        margin-left: 19px;
+    }
+    .container .row.animated.slideInRight {
+        background: rgb(214, 209, 209);
+        padding: 29px;
+        align-items: center;
+        display: inline-block;
+        margin-right: 5px;
+        justify-content: left;
+        width: 100%;
+    }
+    .container .row.animated.slideInRight .col-md-4 a:link,
+    a:visited {
+        background-color: #865858;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline;
+        width: 100%;
+        height: 42px;
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-bottom: 10px;
+        margin-right: 180px;
+    }
+}

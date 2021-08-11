@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 100px;
+}
+
+.hero-section {
+    position: relative;
+    min-height: 100vh;
+    background: url(background.jpeg);
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    max-width: 440px;
+    width: 100%;
+    cursor: pointer;
+    color: white;
+    margin: 0 0 20px 0;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.button .continue {
+    width: 100%;
+    height: 42px;
+    line-height: 45px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.button .checkout {
+    width: 100%;
+    height: 42px;
+    line-height: 45px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.button .continue {
+    margin-left: 0px;
+    text-align: center;
+}
+
+.button .checkout {
+    width: 100%;
+    text-align: center;
+}
+
+.button .continue a:link,
+a:visited {
+    background-color: #865858;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 180px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.button .checkout a:link,
+a:visited {
+    background-color: #865858;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 180px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.button a:hover,
+a:active {
+    background-color: #8c0000;
+}

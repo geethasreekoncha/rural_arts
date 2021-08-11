@@ -1,0 +1,151 @@
+.bg-teal {
+    margin: 60px;
+    justify-content: center;
+    color: #8e7f7f;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #865858;
+    letter-spacing: 1px;
+}
+
+.col h1 {
+    padding-left: 50;
+    justify-content: center;
+    text-align: center;
+}
+
+.cart-page {
+    margin: 80px auto;
+    padding: 80px;
+}
+
+table.center {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cart-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+th {
+    text-align: left;
+    padding: 5px;
+    color: cornsilk;
+    background: #8e7f7f;
+    font-weight: normal;
+}
+
+td {
+    padding: 10px 5px;
+}
+
+td input {
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+
+td a {
+    color: #8e7f7f;
+    font-size: 12px;
+}
+
+td img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.cart-action-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cart-action-button a {
+    display: block;
+    text-align: center;
+    padding: .7rem;
+    margin-bottom: .5rem;
+    text-decoration: none;
+}
+
+.cart-action-button a:first-child {
+    order: 1;
+    background: #8e7f7f;
+    color: #fff;
+}
+
+.cart-action-button a:last-child {
+    background: #8e7f7f;
+    color: #fff;
+    margin-right: auto;
+}
+
+.cart-action-button a:hover {
+    background-color: #865858;
+    color: #fff;
+}
+
+.total-price {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2rem;
+}
+
+.total-price table {
+    border-top: 3px solid #865858;
+    max-width: 440px;
+    width: 100%;
+    justify-content: flex-end;
+    margin-bottom: 3rem;
+}
+
+td:last-child {
+    text-align: right;
+}
+
+th:last-child {
+    text-align: right;
+}
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/* Darker background on mouse-over */
+
+.btn:hover {
+    background-color: RoyalBlue;
+}
+
+@media only screen and (max-width:600px) {
+    .cart-info p {
+        display: none;
+    }
+    table {
+        width: 100%;
+    }
+    table .center {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .cart-page {
+        padding: 0px;
+    }
+}
